@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.background {
+    background-color: #00b7eb;
+    height: 100vh;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calci {
+    width: 400px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 40px;
+    padding-right: 8px;
+}
+
+.out {
+    flex-wrap: wrap;
+
+}
+
+.b {
+    background-color: #b9f2ff;
+}
+
+.textstyle {
+    display: flex;
+    flex-direction: column;
+    background-color: #b9f2ff;
+    height: 200px;
+    width: 350px;
+    border: 0px;
+    border-radius: 15px;
+    margin: 15px;
+    color: #0000cd;
+    font-size: 40px;
+    padding: 6px;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+button {
+    width: 60px;
+    height: 52px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 0px;
+    background-color: #8ab9f1;
+    margin: 4px;
+}
+
+.image {
+    height: 24px;
+}
+
+.result {
+    text-align: end;
+    margin-top: 30px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.enterbtn {
+    color: #ffffff;
+    width: 125px;
+}
